@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { format } from 'date-fns'
 import { ja } from 'date-fns/locale/ja'
 
+export const dynamic = 'force-dynamic'
+
 const categories = [
   { id: 'general', name: '一般', color: 'bg-gray-500' },
   { id: 'housing', name: '住居・不動産', color: 'bg-blue-500' },

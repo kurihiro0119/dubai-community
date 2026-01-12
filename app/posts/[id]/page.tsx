@@ -5,6 +5,8 @@ import { ja } from 'date-fns/locale/ja'
 import CommentForm from '@/components/CommentForm'
 import CommentList from '@/components/CommentList'
 
+export const dynamic = 'force-dynamic'
+
 const categories = [
   { id: 'general', name: '一般', color: 'bg-gray-500' },
   { id: 'housing', name: '住居・不動産', color: 'bg-blue-500' },
